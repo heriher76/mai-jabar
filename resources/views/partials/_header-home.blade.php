@@ -13,6 +13,7 @@
                     <div class="collapse navbar-collapse main-menu-item justify-content-end"
                         id="navbarSupportedContent" style="margin-right: -5vw;">
                         <ul class="navbar-nav align-items-center">
+                        <span class="d-none d-sm-flex d-md-flex d-lg-flex">
                             <li class="nav-item active">
                                 <a class="nav-link" href="{{ url('/') }}" style="font-weight: 1000; color: white;">Beranda</a>
                             </li>
@@ -43,6 +44,39 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ url('services') }}" style="font-weight: 1000; color: white;">Layanan</a>
                             </li>
+                        </span>
+                        <span class="d-sm-none d-md-none d-lg-none">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="{{ url('/') }}" style="font-weight: 1000;">Beranda</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: 1000;">
+                                    Profil
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="{{ url('/visi-misi') }}">Visi dan Misi</a>
+                                    <a class="dropdown-item" href="{{ url('/structure-organization') }}">Struktur Organisasi</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: 1000;">
+                                    Galeri
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="{{ url('/gallery-photo') }}">Foto Dokumentasi</a>
+                                    <a class="dropdown-item" href="{{ url('/gallery-video') }}">Video</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url('news') }}" style="font-weight: 1000;">Berita</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url('work-program') }}" style="font-weight: 1000;">Program Kerja</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url('services') }}" style="font-weight: 1000;">Layanan</a>
+                            </li>
+                        </span>
                             <!-- <li class="nav-item">
                                 <b><a class="nav-link" href="https://kids.youtube.com" target="_blank" style="color: grey;">IRAMA</a></b>
                             </li> -->

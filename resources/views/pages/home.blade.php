@@ -15,6 +15,7 @@
                         <h1>Masyarakat Akuakultur Jawa Barat</h1>
                         <p>Memajukan Akuakultur Jawa Barat
                         </p>
+                        <br>
                         <!-- <a href="#" class="btn_1">Mulai </a> -->
                         <!-- <a href="#" class="btn_2">Get Started </a> -->
                     </div>
