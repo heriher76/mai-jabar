@@ -18,7 +18,7 @@
                                 <a class="nav-link" href="{{ url('/') }}" style="font-weight: 1000; color: white;">Beranda</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: 1000; color: white;">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: 1000; color: white;">
                                     Profil
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -27,7 +27,7 @@
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: 1000; color: white;">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: 1000; color: white;">
                                     Galeri
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -45,7 +45,7 @@
                                 <a class="nav-link" href="{{ url('services') }}" style="font-weight: 1000; color: white;">Layanan</a>
                             </li>
                         </span>
-                        <span class="d-sm-none d-md-none d-lg-none">
+                        <span class="d-xs-flex d-sm-none d-md-none d-lg-none">
                             <li class="nav-item active">
                                 <a class="nav-link" href="{{ url('/') }}" style="font-weight: 1000;">Beranda</a>
                             </li>

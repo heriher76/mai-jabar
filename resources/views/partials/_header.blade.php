@@ -17,7 +17,7 @@
                                     <a class="nav-link" href="{{ url('/') }}" style="font-weight: 1000;">Beranda</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: 1000;">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: 1000;">
                                         Profil
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -26,7 +26,7 @@
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: 1000;">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: 1000;">
                                         Galeri
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
