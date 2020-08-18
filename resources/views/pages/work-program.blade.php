@@ -34,7 +34,7 @@
             <div class="col-md-5 col-lg-5">
                 <div class="learning_member_text">
                     <h5>Program Kerja</h5>
-                    <h2>Forum Komunikasi Puspa Jawa Barat</h2>
+                    <h2>MAI Jawa Barat</h2>
                     <ul>
                         <div class="accordion" id="accordionExample">
                             @foreach($workPrograms as $key => $workProgram)

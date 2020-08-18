@@ -79,7 +79,7 @@
             <div class="col-sm-6 col-xl-4">
                 <div class="single_feature">
                     <div class="single_feature_part">
-                        <img src="{{ url('galeri/'.$gallery->name) }}" style="width: auto; min-height: 50vh;" alt="">
+                        <img src="{{ url('galeri/'.$gallery->name) }}" style="width: auto;" alt="">
                         <h4>{{ $gallery->title }}</h4>
                         <p>{!! str_limit(strip_tags($gallery->desc), $limit = 90, $end = '...') !!}</p>
                     </div>
