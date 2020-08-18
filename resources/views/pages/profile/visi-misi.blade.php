@@ -31,10 +31,10 @@
         <center><h2 class="contact-title">Visi dan Misi MAI Jawa Barat</h2></center>
       </div>
       <div class="col-md-12">
-        <h3>Visi</h3>
+        <center><h3>Visi</h3></center>
         <p>@if($visiMisi != null) {!! $visiMisi->visi !!} @endif</p>
         <br>
-        <h3>Misi</h3>
+        <center><h3>Misi</h3></center>
         <p>@if($visiMisi != null) {!! $visiMisi->misi !!} @endif</p>
 
       </div>
