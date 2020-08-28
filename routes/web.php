@@ -38,3 +38,8 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function() {
 });
 
 Route::get('/{slug}', 'NewsController@show');
+
+Route::get('down/this', function() {
+    Artisan::call('down');
+    echo "Shutdown!";
+});
